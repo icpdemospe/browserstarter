@@ -11,7 +11,7 @@
         <feature>wasJmsClient-2.0</feature>
     </featureManager>
     <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
-    <authData id="MedRecGlobalDataSourceXA_medrec" password="???" user="medrec"/>
+    <authData id="MedRecGlobalDataSourceXA_medrec" password="medrec" user="medrec"/>
     <jdbcDriver id="MedRecGlobalDataSourceXA" javax.sql.DataSource="org.apache.derby.jdbc.ClientXADataSource">
         <library>
             <!-- <file name="${DERBY_JDBC_DRIVER_PATH}/derbyclient.jar"/> -->
